@@ -1,0 +1,28 @@
+name: Build Pod token list
+
+on:
+    push:
+        branches:
+            - main
+    pull_request:
+        types:
+            - closed
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        permissions:
+            contents: write
+
+        steps:
+            - uses: actions/checkout@v4
+            - name: Build list & mapping
+              uses: actions/setup-node@v4
+              with:
+                  node-version: "20.x"
+            - run: npm run build --if-present
+            - uses: stefanzweifel/git-auto-commit-action@v5
+              with:
+                  ref: ${{ github.head_ref }}
+                  commit_message: Build production list

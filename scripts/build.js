@@ -6,7 +6,7 @@ const ordered = base.sort((t1, t2) => {
 });
 
 try {
-	fs.writeFileSync(__dirname + "/../build/token-list.json", JSON.stringify({ list: ordered }));
+	fs.writeFileSync(__dirname + "/../build/token-list.json", JSON.stringify(ordered));
 } catch (e) {
 	console.log(e);
 	throw new Error("Error writing token-list.json");

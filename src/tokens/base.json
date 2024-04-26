@@ -10,9 +10,9 @@
 	},
 	{
 		"chainId": 8453,
-		"symbol": "utPOD",
-		"name": "TESTNET-POD",
-		"address": "0xbc335aa6e95fd097ab83bdc1648dc301000b3548",
+		"symbol": "POD UNI-V2",
+		"name": "POD LP V2",
+		"address": "0xCBcd3854Cbc7F2EC4Af1C99dcB32c393d77aBF6c",
 		"logo": "lppodeth.png",
 		"decimals": 18,
 		"isWNative": false

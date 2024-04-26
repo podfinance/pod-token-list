@@ -1,6 +1,15 @@
 [
 	{
 		"chainId": 8453,
+		"symbol": "POD",
+		"name": "POD",
+		"address": "0xbeF5D404548Fab05820e64F92Cf043b6a06F9c72",
+		"logo": "pod.png",
+		"decimals": 18,
+		"isWNative": false
+	},
+	{
+		"chainId": 8453,
 		"symbol": "USDC",
 		"name": "USD Coin",
 		"address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",

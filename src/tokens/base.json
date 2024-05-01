@@ -88,5 +88,14 @@
 		"logo": "normilio.png",
 		"decimals": 18,
 		"isWNative": false
+	},
+	{
+		"chainId": 8453,
+		"symbol": "DUDE UNI-V2",
+		"name": "DUDE LP V2",
+		"address": "0x255f1807a5ff065a7b32b1784850d3b093f1b330",
+		"logo": "lpdudeeth.png",
+		"decimals": 18,
+		"isWNative": false
 	}
 ]

@@ -97,5 +97,14 @@
 		"logo": "lpdudeeth.png",
 		"decimals": 18,
 		"isWNative": false
+	},
+	{
+		"chainId": 8453,
+		"symbol": "WARPIE LP SUSHI-V2",
+		"name": "WARPIE LP V2",
+		"address": "0x901Af0620baE28430f66e3f957f46e5A74Dbfd99",
+		"logo": "lpwarpieeth.png",
+		"decimals": 18,
+		"isWNative": false
 	}
 ]

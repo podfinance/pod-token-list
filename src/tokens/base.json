@@ -106,5 +106,14 @@
 		"logo": "lpwarpieeth.png",
 		"decimals": 18,
 		"isWNative": false
+	},
+	{
+		"chainId": 8453,
+		"symbol": "CHOKE LP UNI-V2",
+		"name": "CHOKE LP V2",
+		"address": "0xE3DF061046a1A83CC5732FCB653C063828c926Dc",
+		"logo": "lpchokeeth.png",
+		"decimals": 18,
+		"isWNative": false
 	}
 ]

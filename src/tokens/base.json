@@ -111,8 +111,17 @@
 		"chainId": 8453,
 		"symbol": "CHOKE LP UNI-V2",
 		"name": "CHOKE LP V2",
-		"address": "0xE3DF061046a1A83CC5732FCB653C063828c926Dc",
+		"address": "0xe3df061046a1a83cc5732fcb653c063828c926dc",
 		"logo": "lpchokeeth.png",
+		"decimals": 18,
+		"isWNative": false
+	},
+	{
+		"chainId": 8453,
+		"symbol": "CHOKE",
+		"name": "CHOKE",
+		"address": "0xc2093b1cafd659f77d11299ee4ba91889898992c",
+		"logo": "choke.png",
 		"decimals": 18,
 		"isWNative": false
 	}
